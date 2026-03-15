@@ -1,0 +1,61 @@
+/* Additional styles to make react-big-calendar look good with our dark mode theme */
+
+.rbc-calendar {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+    background: var(--bg-primary);
+}
+
+.rbc-month-view,
+.rbc-time-view,
+.rbc-agenda-view {
+    border-color: var(--card-border) !important;
+    background-color: var(--bg-secondary);
+}
+
+.rbc-header {
+    border-bottom: 1px solid var(--card-border) !important;
+    color: var(--text-primary) !important;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.rbc-day-bg,
+.rbc-month-row,
+.rbc-time-content,
+.rbc-time-header-content {
+    border-color: var(--card-border) !important;
+}
+
+.rbc-off-range-bg {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.rbc-today {
+    background-color: rgba(220, 38, 38, 0.1) !important;
+}
+
+.rbc-timeslot-group {
+    border-bottom: 1px solid var(--card-border) !important;
+}
+
+.rbc-time-slot {
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.rbc-toolbar button {
+    color: var(--text-primary) !important;
+    border-color: var(--card-border) !important;
+}
+
+.rbc-toolbar button:hover,
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+    background-color: var(--accent-primary) !important;
+    color: white !important;
+    border-color: var(--accent-primary) !important;
+}
+
+.rbc-event {
+    background-color: var(--accent-primary);
+}
